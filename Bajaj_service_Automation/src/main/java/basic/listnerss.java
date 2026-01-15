@@ -18,7 +18,7 @@ public class listnerss implements ITestListener {
 
 	    @Override
 	    public void onTestFailure(ITestResult result) {
-	        System.out.println("Test Failed: " + result.getName());
+	        System.out.println("Test Failed and updaed for GITUU: " + result.getName());
 	    }
 
 	    @Override
